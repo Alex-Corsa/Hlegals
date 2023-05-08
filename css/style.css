@@ -724,7 +724,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("../../img/Frame.png");
+  background-image: url("../img/Frame.png");
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: auto;
@@ -843,7 +843,7 @@ main {
   width: 75px;
   height: 75px;
   margin-left: 50%;
-  background-image: url("../../img/Scroll_down.svg");
+  background-image: url("../img/Scroll_down.svg");
   background-size: auto;
   background-position: center;
   transform: translate(-50%);
@@ -860,7 +860,7 @@ main {
 .accordion-button:not(.collapsed)::after {
   width: 75px;
   height: 75px;
-  background-image: url("../../img/Scroll_down.svg");
+  background-image: url("../img/Scroll_down.svg");
   background-size: auto;
   background-position: center;
   transform: var(--bs-accordion-btn-icon-transform) translate(50%);

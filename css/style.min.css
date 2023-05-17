@@ -1876,6 +1876,11 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.footer__flex-item:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .footer__adress {
   margin-bottom: 22px;
   display: flex;

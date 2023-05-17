@@ -2030,3 +2030,8 @@ main {
     justify-content: space-between;
   }
 }
+@media (min-width: 1900px) {
+  .section-сlients__grid-box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

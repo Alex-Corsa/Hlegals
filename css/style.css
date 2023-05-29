@@ -324,8 +324,8 @@ main {
   background-color: #F0145A;
 }
 .header__lang-btn:hover {
-  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 .header__phone-link {
   font-weight: 700;
@@ -340,8 +340,8 @@ main {
   color: #FFFFFF;
 }
 .header__phone-link:hover, .header__adress-link:hover {
-  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 .header__fbSVG {
   transition: 0.5s;
@@ -364,8 +364,8 @@ main {
 }
 .header__anchor:hover {
   background: var(--Gradient_Text_Red_Reversed);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -442,8 +442,8 @@ main {
   color: #FFFFFF;
 }
 .header_Black__lang-btn:hover {
-  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 .header_Black__phone-link {
   font-weight: 700;
@@ -458,8 +458,8 @@ main {
   color: #B3B3BA;
 }
 .header_Black__phone-link:hover, .header_Black__address-link:hover {
-  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 .header_Black__fbSVG {
   transition: 0.5s;
@@ -482,8 +482,8 @@ main {
 }
 .header_Black__anchor:hover {
   background: var(--Gradient_Text_Red_Reversed);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -555,8 +555,8 @@ main {
   color: #FFFFFF;
 }
 .header_White__lang-btn:hover {
-  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 .header_White__phone-link {
   font-weight: 700;
@@ -571,8 +571,8 @@ main {
   color: #B3B3BA;
 }
 .header_White__phone-link:hover, .header_White__adress-link:hover {
-  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 1px 1px 3px 2px rgba(0, 0, 0, 0);
 }
 .header_White__fbSVG {
   transition: 0.5s;
@@ -595,8 +595,8 @@ main {
 }
 .header_White__anchor:hover {
   background: var(--Gradient_Text_Red_Reversed);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -776,8 +776,8 @@ main {
 }
 .section-splash__h2B.active {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   border-right: 3px solid #F0145A;
 }
@@ -793,8 +793,8 @@ main {
 }
 .section-splash__btn_H2.active {
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   border-right: 3px solid #F0145A;
 }
@@ -1661,8 +1661,8 @@ main {
   line-height: 1.2;
   color: #FFFFFF;
   background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .popup__close-btn {
@@ -1866,6 +1866,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section-map__iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .footer__line {
